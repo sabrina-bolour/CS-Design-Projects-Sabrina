@@ -1,18 +1,19 @@
+h1 {
+  color: #137298;
+}
+h2 {
+  color: #4D7585;
+}
 p {
-  color: red;
+  color: #134F66;
+}
+
+body{
+  background-color: #CAE9F5
 }
 
 .container {
   display: flex;
-  justify-content: center;
-  flex-direction: row; /* Try changing this to 'column' instead!*/
-  gap: 10px;
-  padding: 20px;
-}
-
-.box {
-  flex-basis: 200px;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
 }
